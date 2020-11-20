@@ -1,0 +1,178 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  text-align: center;
+  font-family: "Quicksand";
+  font-size:24px;
+  margin:0;
+}
+
+.profile-foto{
+  display:block;
+  margin:30px auto;
+  width:128px;
+  border-radius: 60px;
+}
+
+h1{
+  /* color:#f5b461; */
+  margin-top: 20px;
+  font-size: 48px;
+  font-family: "Lobster";
+  margin-bottom: 10px;
+}
+
+button{
+  background-color: #ec524b;
+  width: 250px;
+  height: 52px;
+  border:none;
+  font-family: "Lobster";
+  font-size:32px;
+  color:white;
+  margin-bottom: 30px;
+}
+
+button:hover{
+  cursor:pointer;
+  background-color: #ec524b;
+  opacity:0.75;
+}
+
+
+hr{
+  border:none;
+  border-top:5px dotted #ec524b;
+  width:20%;
+}
+
+.container{
+  display: block;
+  position: relative;
+  top:0;
+  left:200px;
+  max-width:75%;
+  border: none;
+}
+
+.sidebar{
+  position: fixed;
+  height: 100%;
+  width:200px;
+  left:0;
+  top:0;
+  background-color: #f5b461;
+}
+
+.sidebar-item{
+  /* position: relative; */
+  /* left:15px; */
+  /* top:30px; */
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  color:white;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.tabel-pengalaman{
+  text-align:left;
+}
+
+a:hover{
+  color:red;
+}
+
+.active{
+  color:red;
+  text-decoration: underline;
+}
+
+section{
+  padding:10px;
+  margin:0;
+  /* padding-top:15px;
+  padding-bottom: 15px; */
+  /* border: none; */
+  /* display: block; */
+}
+
+section:nth-child(odd){
+  background-color: #9ad3bc;
+}
+
+section:nth-child(even){
+  background-color:white;
+}
+
+footer{
+  background-color: #f3eac2;
+  text-align: center;
+  margin:0;
+  padding: 10px;
+}
+
+.content-skill{
+  /* box-sizing:border-box; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.content-skill > div{
+  margin:10px;
+  padding:20px;
+  text-align: left;
+}
+
+.card{
+  width:33.33%;
+  margin:15px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+h2{
+  background-color: #f3eac2;
+  font-size:30px;
+}
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container-content{
+  display: flex;
+}
+
+.form-group{
+  display: block;
+  height: 48px;
+  width:70%;
+  border:none;
+  font-family: "Quicksand";
+  font-size:24px;
+  margin: 30px auto;
+}
+
+/* .form-group::placeholder{
+  padding-left: 15px;
+}
+
+textarea::placeholder{
+  padding-left: 15px;
+} */
+textarea{
+  display: block;
+  border: none;
+  font-family: "Quicksand";
+  font-size:24px;
+  width: 70%;
+  margin: 30px auto;
+  padding-left: 15px;
+}
+
+input{
+  padding-left: 15px;
+}

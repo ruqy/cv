@@ -1,51 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ruqy Personal Site</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
-  <style>
-    body{
-       background-color:#9ad3bc;
-    }
-    h1{
-      font-family: 'Xanh Mono', monospace;
-      font-size:3em;
-      text-align:center;
-      margin:30px auto;
-    }
-    p{
-      font-family: 'Roboto Condensed', sans-serif;
-      font-size:1em;
-    }
-    
-  </style>
+  <title>CV Ruqy</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <h1>Mohammad Ruqy Faishal Islamy, M.Si</h1>
-  <p><em>Founder at Dzapro7 Electronic For <strong>Small Peoples</strong>.</em></p>
-  <p>I am an Arduino Programmer I Love Coding and Read comic.</p>
-  <hr>
-  <h3>Books and Teaching</h3>
-  <ul>
-    <li>Arduino programmer</li>
-    <li>IoT programmer</li>
-    <li>QT developer</li>
-  </ul>
-  <h3>Hobbies</h3>
-  <ol>
-    <li>Drawing</li>
-    <li>Watching</li>
-    <li>Programming</li>
-  </ol>
-  <script>
-    alert('test javascript');
-  </script>
-</body>
+  <div class="sidebar" id="sideBar">
+    <img src="foto-profile.jpg" alt="" class="profile-foto">
+    <a href="#myprofile" class="sidebar-item">About Me</a>
+    <a href="#education" class="sidebar-item">Pendidikan</a>
+    <a href="#experience" class="sidebar-item">Pengalaman</a>
+    <a href="#portofolio" class="sidebar-item">Portofolio</a>
+    <a href="#skill"  class="sidebar-item">Keahlian</a>
+    <a href="#contact"  class="sidebar-item">Kontak</a>
+  </div>
+  <div class="container">
+  <section id="myprofile">
+    <h1>Perkenalkan, Saya Mohammad Ruqy Faishal Islamy</h1>
+    <hr>
+    <p>Saya seorang <strong>programmer, guru, teknik</strong></p>
+    <p>Hobi saya komputer dan teknologi</p>
+    <p>Saya senang merancang sistem yang <strong>efektif dan efisien</strong></p>
+    <button type="button" name="submit">Hubungi Saya</button>
+  </section>
+  <section id="education">
+    <h1>Pendidikan</h1>
+    <hr>
+    <p>Riwayat Pendidikan</p>
+    <table align="center" cellspacing="30px" class="table-text">
+      <thead>
+        <th>Jenjang</th>
+        <th>Tahun</th>
+        <th>Asal Sekolah</th>
+      </thead>
+      <tr>
+          <td>SD</td>
+          <td>1994 - 2000 </td>
+          <td>SDN 02</td>
+      </tr>
+      <tr>
+        <td>SMP/MTS</td>
+        <td>2001 - 2004</td>
+        <td>SMP Sumur Bandung</td>
+      </tr>
+      <tr>
+        <td>SMA/MA</td>
+        <td>2004 - 2007</td>
+        <td>MA Sumur Bandung</td>
+      </tr>
+      <tr>
+        <td>S1</td>
+        <td>2007 - 2011</td>
+        <td>Fisika ITB</td>
+      </tr>
+      <tr>
+        <td>S2</td>
+        <td>2012 - 2015</td>
+        <td>Fisika ITB</td>
+      </tr>
+    </table>
+  </section>
+  <section id="experience">
+    <h1>Pengalaman</h1>
+    <hr>
+    <table align="center" class="tabel-pengalaman" cellspacing="30px">
+      <tr>
+        <td>Mesin Voting IA ITB</td>
+        <td>2011</td>
+      </tr>
+      <tr>
+        <td>Projek Radar Pasif (Software)</td>
+        <td>2018</td>
+      </tr>
+      <tr>
+        <td>Smart Node PIC-WEB Microchip</td>
+        <td>2011</td>
+      </tr>
+      <tr>
+        <td>WSN Monitoring Deformasi (GPRS)</td>
+        <td>2015</td>
+      </tr>
+      <tr>
+        <td>Kalibrator inclinometer </td>
+        <td>2015</td>
+      </tr>
+    </table>
+  </section>
+  <section id="portofolio">
+    <h1>Portofolio</h1>
+    <hr>
+    <div class="container-content">
+      <div class="card">
+        <h2>Programming</h2>
+        <p>C++</p>
+        <p>Android</p>
+        <p>QT</p>
+      </div>
+      <div class="card">
+        <h2>Electronics</h2>
+        <p>Arduino</p>
+        <p>ESP8266</p>
+        <p>PIC Microchip</p>
+      </div>
+      <div class="card">
+        <h2>Website</h2>
+        <p>Framework CodeIgniter</p>
+        <p>Bootstrap 4.x</p>
+        <p>PHP</p>
+        <p>JavaScript</p>
+        <p>HTML5</p>
+        <p>CSS</p>
+      </div>
+    </div>
+  </section>
+  <section id="skill">
+    <h1>Keahlian</h1>
+    <hr>
+    <div class="content-skill">
+      <div>
+        <p>Programmer</p>
+        <p>Arduino</p>
+        <p>Web Programming</p>
+        <p>C++</p>
+        <p>Microsoft Office</p>
+        <p>Bahasa Inggris</p>
+        <p>Bahasa Indonesia</p>
+      </div>
+      <div>
+        <p>100</p>
+        <p>100</p>
+        <p>Web Programming</p>
+        <p>C++</p>
+        <p>Microsoft Office</p>
+        <p>Bahasa Inggris</p>
+        <p>Bahasa Indonesia</p>
+      </div>
+    </div>
+  </section>
+  <footer id="contact">
+      <h1>Contact Me</h1>
+      <hr />
+      <form action="index.html" method="post">
+        <input class="form-group" type="email" name="email" placeholder="tulis email mu...">
+        <input class="form-group" type="text" name="nomor" placeholder="input nomor wa aktif...">
+        <textarea name="content" rows="8" placeholder="tulis pesan..."></textarea>
+        <button type="submit" name="button">Hubungi Saya</button>
+      </form>
+      <p><a href="">facebook</a></p>
+      <p><a href="">instagram</a></p>
+      <p><a href="">dzapro.com</a></p>
+      <p><a href="">Dzalula Electronics</a></p>
+      <p><a href="">Youtube</a></p>
+  </footer>
+</div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+</body>
 </html>
